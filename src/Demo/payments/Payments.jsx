@@ -1,5 +1,7 @@
 import creditCard from "../../assets/CreditCard.svg";
 import React from "react";
+import Pay1 from '../../assets/Payments1.svg'
+import Pay2 from '../../assets/Payments2.png'
 
 const Payments = () => {
   const username = localStorage.getItem("username");
@@ -43,8 +45,8 @@ const Payments = () => {
       </div>
       <div className="px-3  h-[56.5%] bg-[#E8EDF1]">
         <div className="flex gap-8">
-          <img src="src\assets\Payments1.svg" alt="payment" />
-          <img src="src\assets\Payments2.png" alt="payment" />
+          <img src={Pay1} alt="payment" />
+          <img src={Pay2} alt="payment" />
         </div>
       </div>
     </>
