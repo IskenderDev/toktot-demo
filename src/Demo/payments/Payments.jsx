@@ -43,8 +43,8 @@ const Payments = () => {
       </div>
       <div className="px-3  h-[56.5%] bg-[#E8EDF1]">
         <div className="flex gap-8">
-          <img src="src\assets\Payments1.svg" alt="pay" />
-          <img src="src\assets\Payments2.png" alt="pay" />
+          <img src="src\assets\Payments1.svg" alt="payment" />
+          <img src="src\assets\Payments2.png" alt="payment" />
         </div>
       </div>
     </>
