@@ -46,7 +46,7 @@ const BottomMenu = () => {
 
         <button className="flex flex-col items-center" onClick={toggleDrawer2}>
           <CreditCardOutlined className="text-2xl" />
-          <span className="text-sm">Оплата rfhnf</span>
+          <span className="text-sm">Оплата</span>
         </button>
         <Drawer
         closable={false}
